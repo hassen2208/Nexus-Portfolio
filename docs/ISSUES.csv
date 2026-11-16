@@ -1,0 +1,12 @@
+Issue ID,Epic,User story / technical task,Priority,Points,Sprint,Depends on,Acceptance summary,Status
+NEX-001,Foundation,Initialize React Vite R3F Drei repository,Must,2,1,,Canvas and production build without blocking errors,In Review
+NEX-002,Foundation,Define spatial user journey and revised wireframes,Must,3,1,,Document automatic 3D intro and third-person rooms with camera zoom,In Progress
+NEX-003,Foundation,3D avatar-driven prototype and aerial camera,Must,5,1,NEX-001,Actual avatar visible moving in navigable scene,In Review
+NEX-004,Foundation,Structure room content and professional themes,Must,2,1,NEX-002,Three rooms and content contracts documented,In Review
+NEX-005,Foundation,Validate and integrate uploaded rigged avatar as GLB runtime asset,Should,2,1,NEX-001,File loads visibly upright and correct scale,In Review
+NEX-006,Foundation,Deploy public Vercel build,Must,2,1,NEX-001,Public URL and successful production build,To Do
+NEX-007,Spatial World,Build distinct hub and three laboratory environments,Must,5,2,NEX-003,Each room physically enterable and visually distinct,In Review
+NEX-008,Spatial World,Avatar movement collision and room entry zones,Must,3,2,NEX-003,Can navigate all doors without crossing walls,In Review
+NEX-009,Spatial World,Aerial intro then third-person orbit and zoom throughout labs,Must,5,2,NEX-008,Third person remains active in every room; mouse orbit wheel zoom R recenter,In Review
+NEX-010,Spatial World,Reusable world-space floating hologram panels,Must,3,2,NEX-007,Readable 3D panels within rooms,In Review
+NEX-011,Spatial World,Interactive Systems architecture hologram,Must,3,2,NEX-009;NEX-010,Four nodes respond to click and E with updated details,In Review

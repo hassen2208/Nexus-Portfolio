@@ -1,0 +1,27 @@
+{
+  "name": "nexus-spatial-portfolio",
+  "private": true,
+  "version": "0.8.3",
+  "type": "module",
+  "description": "NEXUS — camera-relative third-person controls and imported Sala 1, with React StrictMode-safe Mixamo Walking/Running animation lifecycle.",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "check": "node scripts/validate-content.mjs && node scripts/validate-avatar.mjs && node scripts/validate-movement.mjs && node scripts/validate-room.mjs"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.7.9",
+    "@react-three/fiber": "^9.8.2",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "three": "^0.180.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.1.0",
+    "vite": "^7.2.0"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  }
+}
